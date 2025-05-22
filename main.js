@@ -11,7 +11,7 @@ function createWindow() {
     })
 
     //Carregar o arquivo HTML na janela
-    window.loadFile('src/views/dashboard.html');
+    window.loadFile('src/views/cadastro.html');
 }
 
 

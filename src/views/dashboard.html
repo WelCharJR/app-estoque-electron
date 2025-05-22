@@ -9,33 +9,27 @@
 </head>
 
 <body>
-    <header class="header">
-
-        <h1>Sistema de controle de estoque</h1>
-        <p>Gerencie seus produtos com facilidade</p>
-
+    <header class="header"> <!-- Cabeçalho da página com classe 'header' para estilização -->
+        <h1>Sistema de Controle de Estoque</h1> <!-- Título principal da página (nível 1) -->
+        <p>Gerencie seus produtos com facilidade</p> <!-- Parágrafo com texto descritivo -->
     </header>
 
-    <div class="conteudo">
-
-        <div class="card">
-            <div class="card-header">
-                <h2>Produtos em estoque</h2>
-
-                <a href="cadastro.html">Cadastrar Produto</a>
-
-                <button class="botao-sair">Sair</button>
+    <div class="container"> <!-- Div principal que contém todo o conteúdo, com classe 'container' para estilização -->
+        <div class="card"> <!-- Div que representa um card (cartão) de conteúdo -->
+            <div class="card-header"> <!-- Cabeçalho do card -->
+                <h2>Produtos em Estoque</h2> <!-- Subtítulo (nível 2) -->
+                <div> <!-- Div que agrupa botões de ação -->
+                    <a href="cadastro.html" class="button-success">Cadastrar Produto</a>
+                    <!-- Link estilizado como botão verde que direciona para página de cadastro -->
+                    <button class="button-logout">Sair</button> <!-- Botão vermelho para sair do sistema -->
+                </div>
             </div>
 
-
-            <div class="meus-produtos">
-
-
+            <!-- Seção onde os produtos serão exibidos -->
+            <div class="products-grid"> <!-- Div com layout grid para exibir produtos em formato de grade -->
 
             </div>
-
         </div>
-
     </div>
 
 </body>

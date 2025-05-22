@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/cadastro.css">
+    <title>Cadastro Produto - Sistema de controle de Estoque</title>
+</head>
+
+<body>
+    <header class="header"> <!-- Cabeçalho da página com classe 'header' para estilização -->
+        <h1>Sistema de Controle de Estoque</h1> <!-- Título principal da página (nível 1) -->
+        <p>Gerencie seus produtos com facilidade</p> <!-- Parágrafo com texto descritivo -->
+
+        <div class="container">
+
+            <div class="card">
+                <h2>Cadastrar Produto</h2>
+
+                <form id="form-produto">
+                    <label for="nome-produto">Nome do Produto</label>
+                    <input type="text" id="nome-produto" required>
+
+                    <label for="quantidade-produto">Quantidade do Produto</label>
+                    <input type="number" id="quantidade-produto" required>
+
+                    <label for="url-imagem">Url da imagem</label>
+                    <input type="url" id="url-imagem" >
+
+
+                    <button type="submit">Cadastrar</button>
+                </form>
+
+
+            </div>
+
+        </div>
+    </header>
+    <script src="../js/cadastro.js"></script>
+</body>
+
+</html>
